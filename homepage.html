@@ -1,37 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tables.css">
 </head>
-<body>
-   <div class="navbar">
-    <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">teknologiforståelse</a></li>
-        <li><a href="">medie produskjon</a></li>
-        <li><a href="">programmering</a></li>
-        <li><a href="">yff</a></li>
-    </ul>
-   </div>
- 
-   <section id="home">
-    <div class="main">
-        <h1 class="headings"> JEG HETER <br> EMIL WESTERSUND</h1>
-        <button class="btn">Kontakt meg</button>
-    </div>
-   </section>
 
-   <section id="about">
-    <div id="pic"></div>
-    
-   </section>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">teknologiforståelse</a></li>
+            <li><a href="">medie produskjon</a></li>
+            <li><a href="">programmering</a></li>
+            <li><a href="">yff</a></li>
+        </ul>
+    </div>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings"> JEG HETER <br> EMIL WESTERSUND</h1>
+            <a href="kontakt.html"><button type="button" class="btn">Get In Touch!</button></a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div id="pic">
+            <h1 class="headings">Skole året 23/24</h1>
+            <img src="kalender.jpg" alt="">
+            <div id="intro">
+                <h2>Hva har jeg lært dette skole året</h2>
+                <h3>Dette skoleåret har jeg lært mye forskjellig, alt fra hvordan arbeidslivet funker til hvordan ta et
+                    bra bilde og hvordan sette op en rasberry pi</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="fag">
+        <h1 class="headings">Programfag</h1>
+        <div class="row">
+            <div class="box">
+                <h1 class="headings"> programmering</h1>
+                <p> I programmering har vi jobbet mye med forskjellige oppgaver, alt fra å lage 3 bokser med farger til
+                    vansklige oppgaver som kalkulatorer med ved å bruke javascript</p>
+            </div>
+            <div class="box">
+                <h1 class="headings"> medie produksjon</h1>
+                <p>I medie produksjon har vi jobbet med mange forskjellige oppgaver, alt fra å ta bilder til og jobbe
+                    med interaktive historier og lage kortspill. </p>
+            </div>
+            <div class="box">
+                <h1 class="headings">teknologi</h1>
+                <p>I teknologiforståelse har vi jobbet med mye forskjellig som forskjellige operativsystemer til hms til hvordan sosial manipualsjon og virus funker.</p>
+            </div>
+            <div class="box">
+                <h1 class="headings">yff</h1>
+                <p>Med yff timene har vi gjort mye forskjellig, blant anet har vi satt opp pcer baki klasserommet som vi brukte en uke på også har vi hat praksis i 3 uker</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-content">
+            <h3>Emil Westersund</h3>
+            <p>Takk for at du besøkte min nettside! Følg meg på sosiale medier for flere oppdateringer(de funker ikke men trenge å fylle footer med noe).</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Emil Westersund. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
