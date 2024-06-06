@@ -12,11 +12,10 @@
 <body>
     <div class="navbar">
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">teknologiforståelse</a></li>
-            <li><a href="">medie produskjon</a></li>
-            <li><a href="">programmering</a></li>
-            <li><a href="">yff</a></li>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="tek.html">teknologiforståelse</a></li>
+            <li><a href="medie.html">medie produskjon</a></li>
+            <li><a href="yff.html">yff</a></li>
         </ul>
     </div>
 
@@ -27,17 +26,34 @@
         </div>
     </section>
 
+    
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="parkering.jpg" style="width:100%">
+        <img class="mySlides" src="skolebygningen.jpg" style="width:100%">
+        <img class="mySlides" src="skolebygningen.jpg" style="width:100%">
+        <img class="mySlides" src="skolesnø.jpg" style="width:100%">
+      
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
     <section id="about">
         <div id="pic">
             <h1 class="headings">Skole året 23/24</h1>
             <img src="kalender.jpg" alt="">
             <div id="intro">
-                <h2>Hva har jeg lært dette skole året</h2>
-                <h3>Dette skoleåret har jeg lært mye forskjellig, alt fra hvordan arbeidslivet funker til hvordan ta et
-                    bra bilde og hvordan sette op en rasberry pi</h3>
+                <h1>Hva har jeg lært dette skole året</h1>
+                <h3>Dette skoleåret har jeg lært mye forskjellig, alt fra hvordan arbeidslivet funker til hvordan ta et bra bilde og hvordan sette op en rasberry pi</h3>
             </div>
         </div>
+    </section>
 
+    <section id="biography">
+        <div class="bio-content">
+            <h1 class="headings">Om Meg</h1>
+            <p>Jeg heter Emil Westersund, og jeg har alltid hatt en stor interesse for teknologi og medieproduksjon. Jeg er lidenskapelig opptatt av å lære nye ferdigheter og å anvende dem i praktiske prosjekter. Gjennom dette skoleåret har jeg hatt muligheten til å fordype meg i forskjellige emner, som programmering, medieproduksjon, og teknologiforståelse, som har utvidet mine horisonter og styrket mine ferdigheter.</p>
+            <p>På fritiden liker jeg å eksperimentere med nye typer teknologi. Jeg ser frem til å fortsette å utvikle mine ferdigheter og å utforske nye muligheter i løpet av neste skoleår.</p>
+        </div>
     </section>
 
     <section id="fag">
@@ -45,13 +61,11 @@
         <div class="row">
             <div class="box">
                 <h1 class="headings"> programmering</h1>
-                <p> I programmering har vi jobbet mye med forskjellige oppgaver, alt fra å lage 3 bokser med farger til
-                    vansklige oppgaver som kalkulatorer med ved å bruke javascript</p>
+                <p> I programmering har vi jobbet mye med forskjellige oppgaver, alt fra å lage 3 bokser med farger til vansklige oppgaver som kalkulatorer med ved å bruke javascript</p>
             </div>
             <div class="box">
                 <h1 class="headings"> medie produksjon</h1>
-                <p>I medie produksjon har vi jobbet med mange forskjellige oppgaver, alt fra å ta bilder til og jobbe
-                    med interaktive historier og lage kortspill. </p>
+                <p>I medie produksjon har vi jobbet med mange forskjellige oppgaver, alt fra å ta bilder til og jobbe med interaktive historier og lage kortspill. </p>
             </div>
             <div class="box">
                 <h1 class="headings">teknologi</h1>
@@ -64,24 +78,18 @@
         </div>
     </section>
 
-
     <footer>
         <div class="footer-content">
             <h3>Emil Westersund</h3>
-            <p>Takk for at du besøkte min nettside! Følg meg på sosiale medier for flere oppdateringer(de funker ikke men trenge å fylle footer med noe).</p>
-            <ul class="socials">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
+            <p>Takk for at du besøkte min nettside!</p>
         </div>
         <div class="footer-bottom">
             <p>&copy; 2024 Emil Westersund. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="slideshow.js"></script>
+
 </body>
 
 </html>
